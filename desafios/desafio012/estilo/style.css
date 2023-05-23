@@ -21,6 +21,7 @@
 html, body {
     min-height: 100vh;
     background-color: var(--cor04);
+    min-width: 350px;
 }
 
 header, footer {
@@ -30,7 +31,6 @@ header, footer {
     font-family: var(--font-cabecalho);
     font-variant: small-caps;
     padding: 50px;
-    min-width: 350px;
 }
 
 
@@ -41,7 +41,7 @@ section {
     line-height: 2.5em;
     padding-left: 30px;
     font-size: 1.3em;
-    min-width: 350px;
+    
     
 }
 
