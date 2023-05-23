@@ -19,9 +19,10 @@
 }
 
 html, body {
-    min-height: 100vh;
+    
     background-color: var(--cor04);
-    min-width: 350px;
+    min-width: 300px;
+    
 }
 
 header, footer {
