@@ -30,14 +30,16 @@ header, footer {
     font-family: var(--font-cabecalho);
     font-variant: small-caps;
     padding: 50px;
-
 }
+
+
 
 section {
     padding-top: 5vh;
     padding-bottom: 5vh;
     line-height: 2.5em;
     padding-left: 30px;
+    font-size: 1.3em;
 }
 
 section.normal {
@@ -51,7 +53,7 @@ section.imagem {
 
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.18);
-    width: 300px;
+    width: 400px;
 }
 
 section h2 {
