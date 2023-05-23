@@ -19,10 +19,8 @@
 }
 
 html, body {
-    
+    min-height: 100vh;
     background-color: var(--cor04);
-    min-width: 300px;
-    
 }
 
 header, footer {
@@ -32,8 +30,8 @@ header, footer {
     font-family: var(--font-cabecalho);
     font-variant: small-caps;
     padding: 50px;
+    font-size: 1.8vw;
 }
-
 
 
 section {
@@ -41,7 +39,7 @@ section {
     padding-bottom: 5vh;
     line-height: 2.5em;
     padding-left: 30px;
-    font-size: 1.3em;
+    font-size: 1.8vw;
     
     
 }
@@ -62,6 +60,8 @@ section.imagem > p {
 
 section h2 {
     padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
 }
 
 section > h2 > a {
