@@ -52,7 +52,7 @@ section.imagem {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 350px;
+    
 }
 
 section.imagem > p {
@@ -89,7 +89,6 @@ section#img01 {
 
 section#img02 {
     background-image: url('../imagens/04.jpg');
-    
 }
 
 footer {
