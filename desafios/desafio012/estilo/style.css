@@ -23,14 +23,14 @@ html, body {
     background-color: var(--cor04);
 }
 
-header, footer {
+header {
     background-color: var(--cor02);
     text-align: center;
     color: white;
     font-family: var(--font-cabecalho);
     font-variant: small-caps;
     padding: 50px;
-    font-size: 2vw;
+    font-size: min(350px, 2.6vw);
 }
 
 
@@ -39,7 +39,7 @@ section {
     padding-bottom: 5vh;
     line-height: 2.5em;
     padding-left: 30px;
-    font-size: 1.8vw;    
+    font-size: min(350px, 2.5vw);    
 }
 
 section.normal {
@@ -49,22 +49,22 @@ section.normal {
 section.imagem {
     background-color: rgba(0, 0, 0, 0.733);
     color: white;
-    background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 350px;
 }
 
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.18);
     text-shadow: 2px 2px 0px black;
-    width: 400px;
-    
-    
+      
 }
 
 section h2 {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 section > h2 > a {
@@ -83,16 +83,21 @@ section > p {
 
 section#img01 {
     background-image: url('../imagens/02.jpg');
-    background-repeat: no-repeat; 
+    
+    
 }
 
 section#img02 {
-    background-image: url('../imagens/05.jpg');
-    background-repeat: no-repeat;
+    background-image: url('../imagens/04.jpg');
+    
 }
 
 footer {
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
+    text-align: center;
+    color: white;
+    font-variant: small-caps;
+    padding: 3px;
+    font-size: min(350px, 2vw);
 }
