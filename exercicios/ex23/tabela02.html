@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 02</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td {
+            text-align: left;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            padding: 10px;
+            font-weight: bold;
+            background-color: rgb(135, 132, 132);
+            color: white;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: lightblue;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: rgba(202, 27, 27, 0.559);
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+        td.Posição {
+            text-align: center;
+        }
+
+        thead, tfoot {
+            background-color: grey;
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: grey;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col" style="width: 10px;">Posição</th>
+                <th scope="col" style="width: 400px;">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="Posição">1</td>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td class="Posição">2</td>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td class="Posição">3</td>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td class="Posição">4</td>
+                <td>Serra</td>
+                <td class="num">536 765</td>
+            </tr>
+            <tr>
+                <td class="Posição">5</td>
+                <td>Vila Velha</td>
+                <td class="num">508 655</td>
+            </tr>
+            <tr>
+                <td class="Posição">6</td>
+                <td>Cariacica</td>
+                <td class="num">386 495</td>
+            </tr>
+            <tr>
+                <td class="Posição">7</td>
+                <td> Vitória</td>
+                <td class="num">369 534</td>
+            </tr>
+            <tr>
+                <td class="Posição">8</td>
+                <td>Cachoeiro de Itapemirim</td>
+                <td class="num">212 172</td>
+            </tr>
+            <tr>
+                <td class="Posição">9</td>
+                <td>Linhares</td>
+                <td class="num">179 755</td>
+            </tr>
+            <tr>
+                <td class="Posição">10</td>
+                <td>São Mateus</td>
+                <td class="num">134 629</td>
+            </tr>
+            <tr>
+                <td class="Posição">11</td>
+                <td>Guarapari</td>
+                <td class="num">128 504</td>
+            </tr>
+            <tr>
+                <td class="Posição">12</td>
+                <td>Colatina</td>
+                <td class="num">124 283</td>
+            </tr>
+            <tr>
+                <td class="Posição">13</td>
+                <td>Aracruz</td>
+                <td class="num">104 942</td>
+            </tr>
+            <tr>
+                <td class="Posição">14</td>
+                <td>Viana</td>
+                <td class="num">80 735</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td></td>
+                <td><strong>210.147.125</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, iste quo. Quasi voluptatibus non molestiae eos, quidem culpa. Quos totam atque aspernatur, quam voluptate doloremque eaque! Vero porro repellendus eligendi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iste alias rem at culpa animi repellat illo eos corrupti fugit itaque, repellendus quis, quaerat mollitia eligendi qui vero voluptates temporibus Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum excepturi ipsam, necessitatibus sequi quos error incidunt neque veniam magni consequatur nulla nisi illo molestiae quibusdam nobis exercitationem voluptates doloremque rem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae officia cumque eveniet. Harum repellat vitae hic voluptatum eius corporis vel odio. Autem velit expedita amet veniam asperiores distinctio nemo dolorum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. At consectetur iusto dolores doloribus! Laboriosam nulla provident vitae a consectetur voluptatibus eum, delectus sint eius quo consequuntur exercitationem quia odit praesentium!
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, iste quo. Quasi voluptatibus non molestiae eos, quidem culpa. Quos totam atque aspernatur, quam voluptate doloremque eaque! Vero porro repellendus eligendi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iste alias rem at culpa animi repellat illo eos corrupti fugit itaque, repellendus quis, quaerat mollitia eligendi qui vero voluptates temporibus Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum excepturi ipsam, necessitatibus sequi quos error incidunt neque veniam magni consequatur nulla nisi illo molestiae quibusdam nobis exercitationem voluptates doloremque rem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae officia cumque eveniet. Harum repellat vitae hic voluptatum eius corporis vel odio. Autem velit expedita amet veniam asperiores distinctio nemo dolorum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. At consectetur iusto dolores doloribus! Laboriosam nulla provident vitae a consectetur voluptatibus eum, delectus sint eius quo consequuntur exercitationem quia odit praesentium!
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, iste quo. Quasi voluptatibus non molestiae eos, quidem culpa. Quos totam atque aspernatur, quam voluptate doloremque eaque! Vero porro repellendus eligendi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iste alias rem at culpa animi repellat illo eos corrupti fugit itaque, repellendus quis, quaerat mollitia eligendi qui vero voluptates temporibus Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum excepturi ipsam, necessitatibus sequi quos error incidunt neque veniam magni consequatur nulla nisi illo molestiae quibusdam nobis exercitationem voluptates doloremque rem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae officia cumque eveniet. Harum repellat vitae hic voluptatum eius corporis vel odio. Autem velit expedita amet veniam asperiores distinctio nemo dolorum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. At consectetur iusto dolores doloribus! Laboriosam nulla provident vitae a consectetur voluptatibus eum, delectus sint eius quo consequuntur exercitationem quia odit praesentium!
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, iste quo. Quasi voluptatibus non molestiae eos, quidem culpa. Quos totam atque aspernatur, quam voluptate doloremque eaque! Vero porro repellendus eligendi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iste alias rem at culpa animi repellat illo eos corrupti fugit itaque, repellendus quis, quaerat mollitia eligendi qui vero voluptates temporibus Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum excepturi ipsam, necessitatibus sequi quos error incidunt neque veniam magni consequatur nulla nisi illo molestiae quibusdam nobis exercitationem voluptates doloremque rem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae officia cumque eveniet. Harum repellat vitae hic voluptatum eius corporis vel odio. Autem velit expedita amet veniam asperiores distinctio nemo dolorum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. At consectetur iusto dolores doloribus! Laboriosam nulla provident vitae a consectetur voluptatibus eum, delectus sint eius quo consequuntur exercitationem quia odit praesentium!
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, iste quo. Quasi voluptatibus non molestiae eos, quidem culpa. Quos totam atque aspernatur, quam voluptate doloremque eaque! Vero porro repellendus eligendi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iste alias rem at culpa animi repellat illo eos corrupti fugit itaque, repellendus quis, quaerat mollitia eligendi qui vero voluptates temporibus Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum excepturi ipsam, necessitatibus sequi quos error incidunt neque veniam magni consequatur nulla nisi illo molestiae quibusdam nobis exercitationem voluptates doloremque rem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae officia cumque eveniet. Harum repellat vitae hic voluptatum eius corporis vel odio. Autem velit expedita amet veniam asperiores distinctio nemo dolorum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. At consectetur iusto dolores doloribus! Laboriosam nulla provident vitae a consectetur voluptatibus eum, delectus sint eius quo consequuntur exercitationem quia odit praesentium!
+    </p>
+</body>
+</html>
