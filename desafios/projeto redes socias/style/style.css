@@ -12,7 +12,7 @@ html, body {
 
 body {
 
-    background: url('../imagens/mesa.png') no-repeat;
+    background: url('../imagens/mesa.png') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -27,8 +27,8 @@ section.telefone {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 401px;
-    width: 311px;
+    height: 406px;
+    width: 295px;
     background: url('../imagens/xiaomi.png') no-repeat;
 }
 
