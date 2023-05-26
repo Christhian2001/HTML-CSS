@@ -24,11 +24,11 @@ main {
 
 section.telefone {
     position: absolute;
-    top: 49%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-60%, -50%);
     height: 406px;
-    width: 350px;
+    width: 320px;
     background: url('../imagens/xiaomi.png') no-repeat;
 }
 
