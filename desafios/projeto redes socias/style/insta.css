@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+}
+
+img {
+    width: 100vw;
+}
+
+a {
+    display: block;
+    background-color: rgba(0, 0, 255, 0.655);
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 6px;
+    margin: -4px;
+    font-weight: bolder;
+}
+
+a:hover {
+    background-color: blue;
+    color: white;
+}

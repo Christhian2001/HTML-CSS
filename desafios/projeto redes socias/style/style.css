@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    background-color: darkcyan;
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+
+    background: url('../imagens/mesa.png') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
+section.telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -50%);
+    height: 401px;
+    width: 311px;
+    background: url('../imagens/xiaomi.png') no-repeat;
+}
+
+iframe.tela {
+    position: relative;
+    top: 10px;
+    left: 115px;
+    width: 170px;
+    height: 375px;
+    border-radius: 15px;
+}
+
+section#redes {
+    text-align: left;
+}
+
+section#redes img {
+    margin: 10px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: -3px -3px 10px rgba(0, 0, 0, 0.705);
+
+}
+
+section#redes img:hover {
+    border: 2px solid white;
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.769);
+    transform: translate(3px, -3px);
+    transition: 0.2s;
+}
