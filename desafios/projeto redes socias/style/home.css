@@ -28,3 +28,18 @@ a:hover {
     background-color: blue;
     color: white;
 }
+
+div.music img {
+    position: relative;
+    height: 376px;
+    
+}
+
+div.music audio {
+    background-color: rgba(255, 255, 255, 0.879);
+    width: 167px;
+    padding: 10px;
+    margin: -10px;
+
+    
+}
