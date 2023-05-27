@@ -5,28 +5,26 @@
 }
 
 ::-webkit-scrollbar {
-    margin: 0px;
-    padding: 0px;
+    width: 0px;
+    height: 0px;
 }
 
 img {
-     width: 100vw;
-     
+    width: 100vw;
 }
 
 a {
     display: block;
-    background-color: rgba(17, 17, 216, 0.751);
     color: black;
+    background-color: rgba(0, 0, 255, 0.735);
     padding: 10px;
-    margin: -10px;
-    
-    text-align: center;
+    margin: -8px;
     font-weight: bolder;
+    text-align: center;
     text-decoration: none;
 }
 
 a:hover {
-    background-color: rgb(0, 0, 255);
+    background-color: blue;
     color: white;
 }
