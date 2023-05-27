@@ -5,18 +5,16 @@
 }
 
 html, body {
-    background-color: darkcyan;
-    width: 100vw;
     height: 100vh;
+    width: 100vw;
+    background-color: black;
 }
 
 body {
-
     background: url('../imagens/mesa.png') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
-
 main {
     position: relative;
     height: 100vh;
@@ -26,9 +24,10 @@ section.telefone {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-55%, -50%);
-    height: 406px;
-    width: 320px;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 400px;
+    background-color: blue;
     background: url('../imagens/xiaomi.png') no-repeat;
 }
 
@@ -36,7 +35,7 @@ iframe.tela {
     position: relative;
     top: 10px;
     left: 115px;
-    width: 170px;
+    width: 169px;
     height: 375px;
     border-radius: 15px;
 }
@@ -46,18 +45,16 @@ section#redes {
 }
 
 section#redes img {
-    margin: 10px;
     width: 55px;
-    height: 55px;
+    margin: 15px;
     border-radius: 50%;
     box-sizing: border-box;
-    box-shadow: -3px -3px 10px rgba(0, 0, 0, 0.705);
-
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.763);
 }
 
 section#redes img:hover {
-    border: 2px solid white;
-    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.769);
-    transform: translate(3px, -3px);
+    border: 2px solid rgba(255, 255, 255, 0.765);
+    transform: translate(4px, -4px);
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.731);
     transition: 0.2s;
 }
