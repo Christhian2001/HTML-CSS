@@ -7,6 +7,28 @@
     <title>Document</title>
 </head>
 <body>
-    <audio src="../ex25/musica/Kaoma - Lambada (Official Video) 1989 HD(MP3_70K).mp3" autoplay controls></audio>
+     <h1>Exemplo de Formulario</h1>
+     <form action="cadastro.js" method="get" autocomplete="on">
+        <fieldset>
+            <legend>dados pessoais</legend>
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" required minlength="5" maxlength="15">
+            </p>
+            <p>
+                <label for="iemail">Email</label>
+                <input type="email" name="email" id="iemail" required autocomplete="email">
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" required autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx) xxxx-xxxx">
+            </p>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+     </form>
 </body>
 </html>
