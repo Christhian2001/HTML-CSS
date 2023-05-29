@@ -1,1 +1,6 @@
 /*configurações paisagens*/
+
+body {
+    background-image: url('../imagens02/cev-landscape.jpg');
+    background-position: left bottom;
+}

@@ -1,1 +1,6 @@
 /*configurações restrato*/
+
+body {
+    background-image: url("../imagens02/cev-portrait.jpg");
+    background-position: center bottom;
+}
