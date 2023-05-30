@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Loguin</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/login.css">
+</head>
+<body>
+    <main>
+        <section id="loguin">
+            <div id="imagem">
+
+                
+
+            </div>
+            <div id="formulario">
+                <h1>Loguin</h1>
+                <p>Seja bem-vindo(a) novamente. Faça loguin para fazer as configuções no seu ambiente.</p>
+
+                <form action="loguin.jv" method="post" autocomplete="on">
+                    <p>
+                        <label for="iemail"></label>
+                        <input type="email" name="email" id="iemail" placeholder="seu email" required>
+                    </p>
+                    <p>
+                        <label for="isenha"></label>
+                        <input type="password" name="senha" id="isenha" placeholder="sua senha" required minlength="8">
+                    </p>
+                    <p>
+                        <input type="submit" value="Entrar"> <br>
+                        <input type="submit" value="Esqueci minha senha">
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
