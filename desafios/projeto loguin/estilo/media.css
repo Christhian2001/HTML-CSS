@@ -2,51 +2,95 @@
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
-    
     section#loguin {
         width: 80vw;
-        height: 370px;
     }
     div#imagem {
-        background-position: 65%;
+        background-position: 70%;
         float: left;
         width: 50%;
         height: 100%;
     }
-    section#loguin div#formulario {
+    div#formulario {
         float: right;
-        width: 48%;
+        width: 49%;
     }
-
+    form div.campos {
+        background-color: #5f2c82;
+        display: block;
+        height: 40px;
+        border-radius: 8px;
+        margin: 5px 0px;
+        padding: 2px;
+        border: 2px solid rgb(0, 0, 0);
+    }
+    
+    div.campos span {
         
+        color: white;
+        font-size: 2.4em;
+        width: 40px;
+        
+    }
+    
+    div.campos input {
+        background-color: #61cecb;
+        font-size: 1em;
+        height: 100%;
+        border-radius: 8px;
+        padding: 18px;
+        border: none;
+        width: calc(100% - 44px);
+        transform: translate(15%, -123%);
+    }
 }
 
 @media screen and (min-width: 992px) {
-    body {
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
-    }
     section#loguin {
-        width: 990px;
-        height: 400px;
+        width: 950px;
     }
-    section#loguin div#imagem {
+    div#imagem {
+        background-position: 70%;
         float: right;
         width: 50%;
         height: 100%;
     }
-    section#loguin div#formulario {
+    div#formulario {
         float: left;
-        width: 48%;
+        width: 49%;
     }
-    div#formulario h1 {
-        text-align: center;
+    div h1 {
         font-size: 2em;
     }
-    
-    div#formulario p {
+    div p {
         font-size: 1.1em;
-        margin: 20px 0px;
+    }
+    form div.campos {
+        background-color: #5f2c82;
+        display: block;
+        height: 40px;
+        border-radius: 8px;
+        margin: 5px 0px;
+        padding: 2px;
+        border: 2px solid rgb(0, 0, 0);
+    }
+    
+    div.campos span {
+        
+        color: white;
+        font-size: 2.4em;
+        width: 40px;
+        
+    }
+    
+    div.campos input {
+        background-color: #61cecb;
+        font-size: 1em;
+        height: 100%;
+        border-radius: 8px;
+        padding: 18px;
+        border: none;
+        width: calc(100% - 44px);
+        transform: translate(12%, -123%);
     }
 }
-
-
